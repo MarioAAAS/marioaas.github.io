@@ -1,0 +1,128 @@
+/*@import url(http://www.eduardmayer.de/codepen-css-resources/webfonts.css);
+*/
+@font-face {
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: normal;
+    font-display: auto;
+    src: url("../webfonts/fa-brands-400.eot");
+    src: url("../webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.woff") format("woff"), url("../webfonts/fa-brands-400.ttf") format("truetype"), url("../webfonts/fa-brands-400.svg#fontawesome") format("svg"); }
+  
+  .fab {
+    font-family: 'Font Awesome 5 Brands'; }
+  @font-face {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+    src: url("../webfonts/fa-regular-400.eot");
+    src: url("../webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.woff") format("woff"), url("../webfonts/fa-regular-400.ttf") format("truetype"), url("../webfonts/fa-regular-400.svg#fontawesome") format("svg"); }
+  
+  .far {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 400; }
+  @font-face {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 900;
+    font-display: auto;
+    src: url("../webfonts/fa-solid-900.eot");
+    src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg"); }
+  
+  .fa,
+  .fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900; }
+  
+  body {
+    padding: 3em 2em;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 2em;
+    line-height: 1;
+    background: #333333;
+  }
+  .pen {
+    max-width: 520px;
+    margin: 0 auto;
+  }
+  .pen img {
+    margin-left: 15px;
+  }
+  .more-button {
+    display: inline-block;
+    padding: 5px 15px 5px 0;
+    margin-left: 15px;
+    overflow: hidden;
+    top: 5px;
+    width: 520px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+  }
+  .more-button:before {
+  
+    display: inline-block;
+    width: 20px;
+    background: #333333;
+    cursor: pointer;
+    color: #cccccc;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .more-button:hover:before,
+  .more-button:active:before {
+    color: #595959;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .more-button:hover,
+  .more-button:active {
+    width: 520px;
+  }
+  .contner {
+    display: inline-block;
+    opacity: 0;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 50px;
+    position: absolute;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  .contner .share-btn {
+    font-size: 1em;
+    padding: 10px;
+    color: #b0b0b0;
+  }
+  .contner .share-btn:hover,
+  .contner .share-btn:active {
+    text-shadow: 0 0 5px rgba(85, 190, 235, 0.45);
+    color: #55beeb;
+  }
+  .more-button:hover > .contner,
+  .more-button:active > .contner {
+    display: inline-block;
+    left: 110px;
+    position: absolute;
+    opacity: 1;
+    width: 510px;
+    top: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }

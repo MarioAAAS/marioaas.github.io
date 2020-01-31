@@ -1,0 +1,60 @@
+.share-buttons-margin {
+  margin: 1em 0 0 !important;
+}
+section {
+  padding: 1em 0;
+
+  &#intro {
+    min-height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    color: #333333;
+  }
+}
+
+div {
+  &.intro {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+
+  &#section-content, &#intro-content {
+    min-height: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  &#section-content {
+    max-width: 1024px;
+    min-height: 80vh;
+    padding-bottom: 4em;
+  }
+}
+p.try-it {
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 1.8em;
+  margin-bottom: 0;
+  text-align: center;
+  -webkit-transform: rotate(2deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+
+/** Default CSS for preview **/
+
+.share-buttons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: inline;
+  }
+}
+@media (max-width: 1110px) {
+  .intro p {
+    text-align: left !important;
+  }
+}
